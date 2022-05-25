@@ -9,7 +9,31 @@
 body{
     font-family: fredoka, sans-serif;
 }
-
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.item{
+    display: flex;
+    width: 32%;
+    background-color: #0f0e17;
+    color: white;
+}
+.testo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.img{
+    width: 100px;
+}
+.mail-team{
+    color: #5fc2eb;
+}
 
 /* header */
 
@@ -17,4 +41,13 @@ h1{
     color: #e53170;
     text-align: center;
     margin-top: 10px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.testo-introduzione{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
